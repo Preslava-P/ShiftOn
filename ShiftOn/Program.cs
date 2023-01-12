@@ -1,9 +1,14 @@
+using Microsoft.Identity.Client;
+using ShiftOn.Controllers;
+
 namespace ShiftOn
 {
     public class Program
     {
         public static void Main(string[] args)
         {
+
+
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.

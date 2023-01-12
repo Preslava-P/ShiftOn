@@ -9,7 +9,8 @@ namespace ShiftOn.Controllers
         void Delete(Guid id);
         void Details (dynamic id);
         void Edit (T item);
-        Task GetAsync();
+        Task<IEnumerable<T>> GetAllAsync();
+        Task<T> GetAsync(object id);
         Task SaveAsync();
     }
 }

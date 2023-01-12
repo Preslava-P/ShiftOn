@@ -1,18 +1,33 @@
 html {
-  font-size: 14px;
+    font-size: 14px;
 }
 
 @media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+    html {
+        font-size: 16px;
+    }
 }
 
 html {
-  position: relative;
-  min-height: 100%;
+    position: relative;
+    min-height: 100%;
 }
 
 body {
-  margin-bottom: 60px;
+    margin-bottom: 60px;
+    background-image: url(https://shifton.com/static/img/promise-bg.jpeg);
+}
+
+div.text-center {
+    
+    color: white;
+}
+
+ul.text {
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    display: block;
+    justify-content: flex-start;
+    list-style-type:none;
 }

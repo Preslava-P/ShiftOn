@@ -5,28 +5,25 @@ using ShiftOn.Models;
 
 namespace ShiftOn.Controllers
 {
-    public class UserController
+    public class UserController : Controller
     {
-        public IRepository<User> _repo;
+        private readonly IRepository<UserController> _repo; 
 
-        public UserController (IRepository<User> repo)
+        public UserController (IRepository<UserController> repo)
         {
             _repo = repo;
         }
 
-        //Get: User
         public async Task<IActionResult> Index()
         {
-            return View(await _repo.GetAsync());
+            return View(await _repo.GetAllAsync());
         }
 
-        //Get: User/Create
         public IActionResult Create()
         {
             return View();
         }
 
-        //Post: User/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(IFormCollection collection)
@@ -47,7 +44,6 @@ namespace ShiftOn.Controllers
             return RedirectToAction(nameof(Index));
         }
 
-        //Post: User/Edit
         [HttpPost]
         [ValidateAntiForgeryToken]
 
