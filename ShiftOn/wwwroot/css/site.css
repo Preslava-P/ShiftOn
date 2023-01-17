@@ -1,33 +1,149 @@
-html {
-    font-size: 14px;
+.navbar{
+    display:block;
+    justify-items: stretch;
+    flex-direction: column;
+
+}
+.container-fluid {
+    background-color: black;
+    margin-bottom: 20px;
+    margin: 0;
+    padding: 15px;
 }
 
-@media (min-width: 768px) {
-    html {
-        font-size: 16px;
-    }
+.home-text {
+    padding: 165px 0 182px 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: white;
 }
 
-html {
-    position: relative;
-    min-height: 100%;
-}
-
-body {
-    margin-bottom: 60px;
-    background-image: url(https://shifton.com/static/img/promise-bg.jpeg);
-}
-
-div.text-center {
+.text-center h2 {
+    font-size: 3rem;
     
+}
+
+.text {
+    list-style-type: none;
+    text-align: left;
+    font-size: 1.7rem;
+    font-weight: 500;
+padding: 50px;
+}
+
+.flex {
+    min-height: 100vh;
+}
+
+#header {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url("https://shifton.com/static/img/promise-bg.jpeg") center / cover no-repeat fixed;
+}
+
+.container1 h3 {
+    text-align: left;
+    color: black;
+}
+
+.container1 h2 {
+    text-align: center;
+    font-size: 2.5rem;
+}
+.container1{
+    margin: 50px 0px;
+}
+.cards {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    padding: 10px;
+    margin-top: 50px;
+    width: 70rem;
+    margin: 28px 0;
+}
+
+.card {
+    background-color: #f9f9f9;
+    border: hidden;
+    margin: 10px;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+    .card h4 {
+        color: #29aae2;
+    }
+
+    .card ul {
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        padding-inline-start: 40px;
+        font-size: 12.5pt;
+    }
+
+.automatize {
+    padding: 25px 0px 40px 0px;
+    background-color: #F5F6F6;
+    display: block;
+    width: 70rem;
+    margin: 50px 0px;
+}
+
+.container2 h2 {
+    color: #29aae2;
+    text-align: center;
+    padding: 20px;
+}
+
+.automatize-row {
+    text-align: left;
+    padding: 40px;
+    font-size: 1.4rem;
+    display: flex;
+}
+
+    .automatize-row img {
+        width: 500px;
+    }
+
+.link a {
+    border: hidden;
+    border-radius: 30px;
+    text-decoration: none;
+    background-color: #29aae2;
+    color: white;
+    margin: 50px;
+    padding: 15px 25px;
+    font-size: 1.3rem;
+}
+
+    .link a:hover {
+        transition: 1s;
+        background-color: #208dbd;
+    }
+
+.end-first-page {
+    background-color: #29aae2;
+    padding: 20px;
+    text-align: center;
     color: white;
 }
 
-ul.text {
+.end-first-page a {
+    font-size: 2rem;
     color: white;
+    font-weight: 500;
+}
+
+    .end-first-page a:hover {
+        transition: 1s;
+        color: #176f96;
+    }
+.nav-item{
     font-weight: bold;
-    font-size: 25px;
-    display: block;
-    justify-content: flex-start;
-    list-style-type:none;
+}
+.container3 {
+    background-color: #29aae2;
+    color: black;
 }

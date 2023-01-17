@@ -1,5 +1,6 @@
 using Microsoft.Identity.Client;
 using ShiftOn.Controllers;
+using ShiftOn.Models;
 
 namespace ShiftOn
 {
@@ -13,6 +14,7 @@ namespace ShiftOn
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
+            builder.Services.AddDbContext<Context>();
 
             var app = builder.Build();
 
