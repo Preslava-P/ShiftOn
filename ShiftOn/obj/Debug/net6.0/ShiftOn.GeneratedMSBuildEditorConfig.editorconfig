@@ -16,8 +16,8 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\students\Desktop\ShiftOn-12A\ShiftOn
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/students/Desktop/ShiftOn-12A/ShiftOn/Views/Home/AboutUs.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dFVzLmNzaHRtbA==
+[C:/Users/students/Desktop/ShiftOn-12A/ShiftOn/Views/Home/Contacts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/students/Desktop/ShiftOn-12A/ShiftOn/Views/Home/Index.cshtml]

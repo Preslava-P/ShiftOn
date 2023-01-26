@@ -18,7 +18,7 @@ namespace ShiftOn.Controllers
             return View();
         }
 
-        public IActionResult AboutUs()
+        public IActionResult Contacts()
         {
             return View();
         }

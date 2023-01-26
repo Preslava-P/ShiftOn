@@ -1,14 +1,22 @@
-.navbar{
-    display:block;
-    justify-items: stretch;
-    flex-direction: column;
-
+.container {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    max-width: 100%;
 }
+
+.navbar {
+    display: inline;
+    flex-direction: row;
+}
+
 .container-fluid {
+    display: flex;
+    flex-direction: row;
     background-color: black;
     margin-bottom: 20px;
     margin: 0;
     padding: 15px;
+    height: 60px;
 }
 
 .home-text {
@@ -20,7 +28,6 @@
 
 .text-center h2 {
     font-size: 3rem;
-    
 }
 
 .text {
@@ -28,7 +35,7 @@
     text-align: left;
     font-size: 1.7rem;
     font-weight: 500;
-padding: 50px;
+    padding: 50px;
 }
 
 .flex {
@@ -48,17 +55,16 @@ padding: 50px;
     text-align: center;
     font-size: 2.5rem;
 }
-.container1{
-    margin: 50px 0px;
+
+.container1 {
+    margin: 50px;
 }
+
 .cards {
     display: flex;
     justify-content: flex-end;
     flex-direction: row;
-    padding: 10px;
-    margin-top: 50px;
-    width: 70rem;
-    margin: 28px 0;
+    max-width: 80rem;
 }
 
 .card {
@@ -83,67 +89,46 @@ padding: 50px;
     }
 
 .automatize {
-    padding: 25px 0px 40px 0px;
+    padding: 50px;
     background-color: #F5F6F6;
     display: block;
-    width: 70rem;
-    margin: 50px 0px;
+    width: 80rem;
+    margin: 50px;
 }
 
-.container2 h2 {
-    color: #29aae2;
-    text-align: center;
+.container2 {
+    border: 5px solid #29aae299;
+    border-radius: 40px;
     padding: 20px;
 }
+
+    .container2 h2 {
+        color: #29aae2;
+        text-align: center;
+        padding: 20px;
+    }
 
 .automatize-row {
     text-align: left;
-    padding: 40px;
-    font-size: 1.4rem;
+    padding: 50px;
+    font-size: 1.7rem;
     display: flex;
 }
 
-    .automatize-row img {
-        width: 500px;
-    }
-
-.link a {
-    border: hidden;
-    border-radius: 30px;
-    text-decoration: none;
-    background-color: #29aae2;
-    color: white;
-    margin: 50px;
-    padding: 15px 25px;
-    font-size: 1.3rem;
+.picture img {
+    width: 600px;
+    height: 500px;
+    margin-left: 50px;
 }
 
-    .link a:hover {
-        transition: 1s;
-        background-color: #208dbd;
-    }
-
-.end-first-page {
-    background-color: #29aae2;
-    padding: 20px;
-    text-align: center;
-    color: white;
-}
-
-.end-first-page a {
-    font-size: 2rem;
-    color: white;
-    font-weight: 500;
-}
-
-    .end-first-page a:hover {
-        transition: 1s;
-        color: #176f96;
-    }
-.nav-item{
+.nav-item {
     font-weight: bold;
 }
+
 .container3 {
-    background-color: #29aae2;
     color: black;
 }
+
+    .container3 span {
+        font-family: Mistral;
+    }

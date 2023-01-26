@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - ShiftOn</title>
+    <title>@ViewData["Title"] ShiftOn</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/ShiftOn.styles.css" asp-append-version="true" />
@@ -12,6 +12,7 @@
 
 </head>
 <body>
+    
     <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
         <div class="container-fluid">
             <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index"><img style="width: 240px;" src="https://shifton.com/static/images/logo_full.svg" alt=""></a>
@@ -22,7 +23,7 @@
             <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                 <ul class="navbar-nav flex-grow-1">
                     <li class="nav-item">
-                        <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="AboutUs">Контакти</a>
+                        <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="Contacts">Контакти</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="SignIn">Влизане</a>
@@ -45,7 +46,7 @@
 
             <ul class="nav justify-content-center border-bottom  pb-3 m-3">
                 <li class="nav-item"><a href="https://localhost:44371/Home" class="nav-link px-2 text-dark">Начало</a></li>
-                <li class="nav-item"><a href="https://localhost:44371/Home/AboutUs" class="nav-link px-2 text-dark">Контакти</a></li>
+                <li class="nav-item"><a href="https://localhost:44371/Home/Contacts" class="nav-link px-2 text-dark">Контакти</a></li>
                 <li class="nav-item"><a href="https://localhost:44371/Home/SignIn" class="nav-link px-2 text-dark">Влизане</a></li>
                 <li class="nav-item"><a href="https://localhost:44371/Home/SignUp" class="nav-link px-2 text-dark">Регистрация</a></li>
             </ul>
@@ -55,7 +56,7 @@
                 <li class="ms-3"><a class="text-dark" href="https://google.com" target="_blank"><i class="fa fa-google" style="font-size:24px;"></i></a></li>
             </ul>
             <br />
-            <p class="text-center text-dark py-3 my-3">© 2023 "ShiftOn", Inc</p>
+            <p class="text-center text-dark py-3 my-3">© 2023 <span>"ShiftOn"</span>, Inc</p>
 
         </footer>
     </div>

@@ -1,0 +1,73 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "Контакти";
+}
+<head>
+    <link rel="stylesheet" href="~/css/contacts.css" asp-append-version="true" />
+</head>
+<body>
+    <main>
+        <div class="img">
+            <div class="main text-center text-white">
+                <p><span>Shifton</span> е многофункционално решение за планиране и управление на служителите</p>
+            </div>
+            <div class="contact">
+                <table>
+                    <tr class="table">
+                        <td>
+                            <div class="section">
+                                <div class="questions">
+                                    <h3 class="title text-center text-dark">Задайте вашият въпрос: </h3>
+                                    <form class="your-question" action="/action_page.php">
+                                        <label class="labels text-dark" for="fname">Име и фамилия: </label>
+                                        <input type="text" id="fname" name="fname" required>
+                                        <br>
+                                        <label class="label text-dark" for="email">Имейл адрес: </label>
+                                        <input type="email" id="email" name="email" required>
+                                        <br>
+                                        <label class="labels text-dark" for="question">Вашият въпрос: </label>
+                                        <input type="text" id="text" name="text" required>
+                                        <br><br />
+                                        <div class="buton">
+                                            <input href="mailto:preslavap20@gmail.com" type="button" value="Изпрати">
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="image ">
+                                <h3 class="title1 text-center text-dark">За още въпроси свържете се с нас: </h3>
+                                <div class="users">
+                                    <div class="about text-dark">
+                                        <h5 class="text-center">Администратор:</h5>
+                                        <img src="https://i.pinimg.com/564x/d2/56/57/d25657a70d1cb2368d2f309fc8b9a8fb--face-off-photography-portraits.jpg" alt="" />
+                                        <h6>Сияна Монева</h6>
+                                        <i style="font-size:18px" class="fa">&#xf095;</i> +359 888574239<br />
+                                        <i style="font-size:18px" class="fa">&#xf0e0;</i> s.moneva@gmail.com
+                                    </div>
+                                    <div class="about text-dark">
+                                        <h5 class="text-center">Мениджър:</h5>
+                                        <img src="https://cdn.pixabay.com/photo/2021/06/04/10/29/man-6309454_1280.jpg" alt="" />
+                                        <h6>Калоян Димитров</h6>
+                                        <i style="font-size:18px" class="fa">&#xf095;</i> +359 877362904<br />
+                                        <i style="font-size:18px" class="fa">&#xf0e0;</i> kaloqn99@gmail.com
+                                    </div>
+                                    <div class="about text-dark">
+                                        <h5 class="text-center">Дизайнер:</h5>
+                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSFSz4sEG2ew9-pfYdXPAo35DemKx0mhZe3w&usqp=CAU" alt="" />
+                                        <h6>Габриела Иванова</h6>
+                                        <i style="font-size:18px" class="fa">&#xf095;</i> +359 899310337<br />
+                                        <i style="font-size:18px" class="fa">&#xf0e0;</i> gabi.ivanova@gmail.com
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </main>
+</body>
