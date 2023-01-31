@@ -12,10 +12,7 @@ namespace ShiftOn.Models
         [DisplayName("Date")]
         public DateTime RequestDate { get; set; }
 
-        [Required]
         public Guid UserId { get; set; }
-
-        [Required]
         public Guid ScheduleId { get; set; }
 
         public User User { get; set; }

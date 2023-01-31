@@ -4,3 +4,32 @@
 @{
     ViewData["Title"] = "Влизане";
 }
+<head>
+    <link rel="stylesheet" href="~/css/signin.css" asp-append-version="true" />
+</head>
+<div class="font">
+    <div class="limiter">
+        <div class="container-login">
+            <div class="login-form-title text-white">
+                <h1>Влизане</h1>
+            </div>
+
+            <form class="login-form was-validated">
+                <div class="wrap-input" data-validate="Потребителското име е задължително"> 
+                     <h5 class="label-input">Потребителско име</h5>
+                    <input class="input" type="text" name="username" placeholder="Въведи потребителско име" required>
+                </div>
+
+                <div class="wrap-input" data-validate="Паролата е задължителна">
+                    <h5 class="label-input">Парола</h5>
+                    <input class="input" type="password" name="password" placeholder="Въведи парола" required>
+                </div>    
+            </form>
+            <div class="container-login-button">
+                <button class="login-form-btn" type="button">
+                    Впиши се 
+                </button>
+            </div>
+        </div>
+    </div>
+</div>

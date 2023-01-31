@@ -43,7 +43,7 @@
 }
 
 #header {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url("https://shifton.com/static/img/promise-bg.jpeg") center / cover no-repeat fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url("../Images/promise-bg.jpeg") center / cover no-repeat fixed;
 }
 
 .container1 h3 {

@@ -86,7 +86,7 @@
     padding-right: 50px;
 }
 .img {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url("https://shifton.com/static/images/hero/hero-support.jpg") center / cover no-repeat fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url("../Images/hero-support.jpg") center / cover no-repeat fixed;
     padding: 20px;
     padding-bottom: 50px;
 }

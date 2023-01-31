@@ -1,0 +1,60 @@
+﻿.font2 {
+    background: url("../Images/font.jpg") center / cover no-repeat fixed;
+    padding: 20px;
+}
+.limiter2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 60px 0px;
+}
+
+.container-login2 {
+    border-color: black;
+    border-radius: 10px;
+    background-color: #f7f6f6;
+    box-shadow: rgba(208,245,254,0.9) 1px 1px 10px 10px;
+}
+
+.login-form-title2 {
+    background: linear-gradient(270deg, #0c91cb, #94d8f5);
+    width: 50rem;
+    height: 8rem;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 36px;
+    text-shadow: 0.1em 0.1em 0.2em black;
+    font-family: 'Maiandra GD';
+}
+
+.flex-register{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.wrap-input2 {
+    font-size: 1.2rem;
+    font-family: 'Maiandra GD';
+    padding: 15px;
+}
+
+.label-input2 {
+    color: #29aae2;
+}
+
+.input2 {
+    border-color: #29aae2;
+    width: 300px;
+}
+
+.container-login-button2 button {
+    padding: 5px 30px;
+    border-color: #29aae2;
+    border-radius: 20px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #29aae2;
+    margin: 20px;
+    justify-content: center;
+}
