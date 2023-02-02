@@ -397,3 +397,5 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+/ShiftOn/.vs/ShiftOn/FileContentIndex/8a2b878a-9cf7-4dd4-8835-6b8bb6c14fd7.vsidx
+/ShiftOn/.vs/ShiftOn/FileContentIndex/dff7468b-9265-457d-bb83-48cfe470b90a.vsidx
