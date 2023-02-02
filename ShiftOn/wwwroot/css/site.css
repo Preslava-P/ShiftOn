@@ -3,7 +3,6 @@
     padding-right: 0 !important;
     max-width: 100%;
 }
-
 .navbar {
     display: inline;
     flex-direction: row;
@@ -35,7 +34,7 @@
     text-align: left;
     font-size: 1.7rem;
     font-weight: 500;
-    padding: 50px;
+    padding: 30px;
 }
 
 .flex {
