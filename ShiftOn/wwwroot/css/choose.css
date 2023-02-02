@@ -1,0 +1,52 @@
+﻿.font {
+    background: url("../Images/font.jpg") center / cover no-repeat fixed;
+    padding: 20px;
+}
+.form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 60px 0px;
+}
+.choose {
+    border: hidden;
+    background-color: #f7f6f6;
+    border-radius: 20px;
+    padding: 50px;
+    box-shadow: rgba(208,245,254,0.9) 1px 1px 10px 10px;
+}
+.choose h2{
+    color: #29aae2;
+    text-align: center
+}
+.choose span{
+    font-family: Magneto;
+}
+.user-admin{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+    align-content: baseline;
+}
+.links {
+    padding: 30px;
+    margin: 20px;
+    border: inset;
+    border-radius: 20px;
+    border-color: #29aae2;
+    padding: 20px;
+    width: 18rem;
+    height: 10rem;
+    color: #29aae2;
+}
+.links h3{
+    text-align: center;
+    margin-top: 20px;
+}
+.links i{
+    text-align: center;
+}
+a {
+    text-decoration: none;
+}

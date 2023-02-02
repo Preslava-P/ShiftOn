@@ -28,7 +28,27 @@ namespace ShiftOn.Controllers
             return View();
         }
 
+        public IActionResult SignInAdmin()
+        {
+            return View();
+        }
+
         public IActionResult SignUp()
+        {
+            return View();
+        }
+
+        public IActionResult SignUpAdmin()
+        {
+            return View();
+        }
+
+        public IActionResult Choose()
+        {
+            return View();
+        }
+
+        public IActionResult Choose1()
         {
             return View();
         }

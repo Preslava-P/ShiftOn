@@ -45,3 +45,8 @@
     color: #29aae2;
     margin: 20px;
 }
+.flex-register {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
