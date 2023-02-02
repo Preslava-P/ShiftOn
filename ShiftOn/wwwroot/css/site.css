@@ -1,18 +1,134 @@
-html {
-  font-size: 14px;
+.container {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    max-width: 100%;
 }
 
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+.navbar {
+    display: inline;
+    flex-direction: row;
 }
 
-html {
-  position: relative;
-  min-height: 100%;
+.container-fluid {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    margin-bottom: 20px;
+    margin: 0;
+    padding: 15px;
+    height: 60px;
 }
 
-body {
-  margin-bottom: 60px;
+.home-text {
+    padding: 165px 0 182px 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: white;
 }
+
+.text-center h2 {
+    font-size: 3rem;
+}
+
+.text {
+    list-style-type: none;
+    text-align: left;
+    font-size: 1.7rem;
+    font-weight: 500;
+    padding: 50px;
+}
+
+.flex {
+    min-height: 100vh;
+}
+
+#header {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url("../Images/promise-bg.jpeg") center / cover no-repeat fixed;
+}
+
+.container1 h3 {
+    text-align: left;
+    color: black;
+}
+
+.container1 h2 {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.container1 {
+    margin: 50px;
+}
+
+.cards {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    max-width: 80rem;
+}
+
+.card {
+    background-color: #f9f9f9;
+    border: hidden;
+    margin: 10px;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+    .card h4 {
+        color: #29aae2;
+    }
+
+    .card ul {
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        padding-inline-start: 40px;
+        font-size: 12.5pt;
+    }
+
+.automatize {
+    padding: 50px;
+    background-color: #F5F6F6;
+    display: block;
+    width: 80rem;
+    margin: 50px;
+}
+
+.container2 {
+    border: 5px solid #29aae299;
+    border-radius: 40px;
+    padding: 20px;
+}
+
+    .container2 h2 {
+        color: #29aae2;
+        text-align: center;
+        padding: 20px;
+    }
+
+.automatize-row {
+    text-align: left;
+    padding: 50px;
+    font-size: 1.7rem;
+    display: flex;
+}
+
+.picture img {
+    width: 600px;
+    height: 500px;
+    margin-left: 50px;
+}
+
+.nav-item {
+    font-weight: bold;
+}
+
+.container3 {
+    color: black;
+}
+
+    .container3 span {
+        font-family: Mistral;
+    }

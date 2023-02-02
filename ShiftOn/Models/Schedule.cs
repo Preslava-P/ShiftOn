@@ -20,6 +20,5 @@ namespace ShiftOn.Models
 
         public Shift Shift { get; set; }
         public User User { get; set; }
-        public VacationRequest VacationRequest { get; set; }
     }
 }

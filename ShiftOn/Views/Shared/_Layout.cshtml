@@ -3,44 +3,64 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - ShiftOn</title>
+    <title>@ViewData["Title"] ShiftOn</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/ShiftOn.styles.css" asp-append-version="true" />
+    <link rel="icon" type="image/png" sizes="16x16" href="https://shifton.com/static/favicons/favicon-16x16.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">ShiftOn</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                        </li>
-                    </ul>
-                </div>
+    
+    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+        <div class="container-fluid">
+            <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index"><img style="width: 240px;" src="https://shifton.com/static/images/logo_full.svg" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                <ul class="navbar-nav flex-grow-1">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="Contacts">Контакти</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="SignIn">Влизане</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="SignUp">Регистрация</a>
+                    </li>
+                </ul>
             </div>
-        </nav>
-    </header>
+        </div>
+    </nav>
+
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
     </div>
+    <div class=" container3">
+        <footer>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2023 - ShiftOn - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-        </div>
-    </footer>
+            <ul class="nav justify-content-center border-bottom  pb-3 m-3">
+                <li class="nav-item"><a href="https://localhost:44371/Home" class="nav-link px-2 text-dark">Начало</a></li>
+                <li class="nav-item"><a href="https://localhost:44371/Home/Contacts" class="nav-link px-2 text-dark">Контакти</a></li>
+                <li class="nav-item"><a href="https://localhost:44371/Home/SignIn" class="nav-link px-2 text-dark">Влизане</a></li>
+                <li class="nav-item"><a href="https://localhost:44371/Home/SignUp" class="nav-link px-2 text-dark">Регистрация</a></li>
+            </ul>
+            <ul class="nav justify-content-center list-unstyled d-flex">
+                <li class="ms-3"><a class="text-dark" href="https://facebook.com" target="_blank"><i class="fa fa-facebook" style="font-size:24px;"></i></a></li>
+                <li class="ms-3"><a class="text-dark" href="https://instagram.com" target="_blank"><i class="fa fa-instagram" style="font-size:24px;"></i></a></li>
+                <li class="ms-3"><a class="text-dark" href="https://google.com" target="_blank"><i class="fa fa-google" style="font-size:24px;"></i></a></li>
+            </ul>
+            <br />
+            <p class="text-center text-dark py-3 my-3">© 2023 <span>"ShiftOn"</span>, Inc</p>
+
+        </footer>
+    </div>
+
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>

@@ -16,6 +16,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\students\Desktop\ShiftOn-12A\ShiftOn
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/students/Desktop/ShiftOn-12A/ShiftOn/Views/Home/Contacts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/students/Desktop/ShiftOn-12A/ShiftOn/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -24,12 +28,80 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/students/Desktop/ShiftOn-12A/ShiftOn/Views/Home/SignIn.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTaWduSW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/students/Desktop/ShiftOn-12A/ShiftOn/Views/Home/SignUp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTaWduVXAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/students/Desktop/ShiftOn-12A/ShiftOn/Views/Schedules/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2NoZWR1bGVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/students/Desktop/ShiftOn-12A/ShiftOn/Views/Schedules/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2NoZWR1bGVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/students/Desktop/ShiftOn-12A/ShiftOn/Views/Schedules/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2NoZWR1bGVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/students/Desktop/ShiftOn-12A/ShiftOn/Views/Schedules/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2NoZWR1bGVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/students/Desktop/ShiftOn-12A/ShiftOn/Views/Schedules/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2NoZWR1bGVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/students/Desktop/ShiftOn-12A/ShiftOn/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/students/Desktop/ShiftOn-12A/ShiftOn/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/students/Desktop/ShiftOn-12A/ShiftOn/Views/Users/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/students/Desktop/ShiftOn-12A/ShiftOn/Views/Users/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/students/Desktop/ShiftOn-12A/ShiftOn/Views/Users/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/students/Desktop/ShiftOn-12A/ShiftOn/Views/Users/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/students/Desktop/ShiftOn-12A/ShiftOn/Views/Users/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/students/Desktop/ShiftOn-12A/ShiftOn/Views/VacationRequests/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmFjYXRpb25SZXF1ZXN0c1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/students/Desktop/ShiftOn-12A/ShiftOn/Views/VacationRequests/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmFjYXRpb25SZXF1ZXN0c1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/students/Desktop/ShiftOn-12A/ShiftOn/Views/VacationRequests/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmFjYXRpb25SZXF1ZXN0c1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/students/Desktop/ShiftOn-12A/ShiftOn/Views/VacationRequests/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmFjYXRpb25SZXF1ZXN0c1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/students/Desktop/ShiftOn-12A/ShiftOn/Views/VacationRequests/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmFjYXRpb25SZXF1ZXN0c1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/students/Desktop/ShiftOn-12A/ShiftOn/Views/_ViewImports.cshtml]
