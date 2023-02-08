@@ -64,8 +64,28 @@
     margin: 20px;
     justify-content: center;
 }
-
-.container-login-button3 a{
-    text-decoration: none;
-
+.container-login-button2 button:hover {
+    font-size: 1.3rem;
+    color: #0c91cb;
+    transition: 0.5s;
 }
+.button-back{
+    text-decoration: none;
+}
+    .button-back h6 {
+        border: inset;
+        padding: 5px 30px;
+        border-color: #29aae2;
+        border-radius: 20px;
+        font-size: 1.1rem;
+        font-weight: bold;
+        color: #29aae2;
+        margin: 20px;
+        justify-content: center;
+        text-decoration: none;
+    }
+    .button-back h6:hover{
+        font-size: 1.3rem;
+        color: #0c91cb;
+        transition: 0.5s;
+    }
