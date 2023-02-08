@@ -25,6 +25,22 @@ namespace ShiftOn.Controllers
             return View(await context.ToListAsync());
         }
 
+        // GET: Schedules
+        public async Task<IActionResult> Index(Guid userId)
+        {
+            var context = _context.Schedules
+                .Where(sc => sc.UserId.Equals(userId))
+                .Include(s => s.Shift)
+                .Include(s => s.User);
+
+            return View(await context.ToListAsync());
+        }
+
+
+
+
+
+
         // GET: Schedules/Details/5
         public async Task<IActionResult> Details(Guid? id)
         {

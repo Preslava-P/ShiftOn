@@ -18,7 +18,7 @@
 
 .login-form-title2 {
     background: linear-gradient(270deg, #0c91cb, #94d8f5);
-    width: 50rem;
+    width: 63rem;
     height: 8rem;
     border-radius: 10px;
     text-align: center;
@@ -48,6 +48,12 @@
     width: 300px;
 }
 
+.buttons{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+
 .container-login-button2 button {
     padding: 5px 30px;
     border-color: #29aae2;
@@ -57,4 +63,9 @@
     color: #29aae2;
     margin: 20px;
     justify-content: center;
+}
+
+.container-login-button3 a{
+    text-decoration: none;
+
 }
