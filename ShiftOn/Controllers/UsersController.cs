@@ -21,7 +21,7 @@ namespace ShiftOn.Controllers
         // GET: Users
         public async Task<IActionResult> Index()
         {
-              return View(await _context.Users.ToListAsync());
+            return View(await _context.Users.ToListAsync());
         }
 
         // GET: Users/Details/5
@@ -53,16 +53,22 @@ namespace ShiftOn.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("UserId,FirstName,LastName,ScheduleId,VacationRequestId")] User user)
+        public async Task<IActionResult> Create(IFormCollection collection)
         {
             if (ModelState.IsValid)
             {
-                user.UserId = Guid.NewGuid();
+                var user = new User()
+                {
+                    UserId = Guid.NewGuid(),
+                    FirstName = collection["firstName"],
+                    LastName = collection["lastName"]
+                };
                 _context.Add(user);
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+
+                return RedirectToAction(nameof(Index), user.UserId);
             }
-            return View(user);
+            return View(User);
         }
 
         // GET: Users/Edit/5
@@ -148,14 +154,14 @@ namespace ShiftOn.Controllers
             {
                 _context.Users.Remove(user);
             }
-            
+
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
         private bool UserExists(Guid id)
         {
-          return _context.Users.Any(e => e.UserId == id);
+            return _context.Users.Any(e => e.UserId == id);
         }
     }
 }

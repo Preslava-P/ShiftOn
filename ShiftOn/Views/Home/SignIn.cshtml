@@ -14,22 +14,24 @@
                 <h1>Влизане</h1>
             </div>
 
-            <form class="login-form was-validated">
-                <div class="wrap-input"> 
-                     <h5 class="label-input">Потребителско име</h5>
+            <form class="login-form was-validated" asp-controller="Users" asp-action="Create" method="post">
+                <div class="wrap-input">
+                    <h5 class="label-input">Потребителско име</h5>
                     <input class="input" type="text" name="username" autocomplete="on" placeholder="Въведи потребителско име" required>
                 </div>
 
                 <div class="wrap-input">
                     <h5 class="label-input">Парола</h5>
                     <input class="input" type="password" name="password" placeholder="Въведи парола" required>
-                </div>    
+                </div>
+
+                <div class="container-login-button">
+                    <button class="login-form-btn" type="submit">
+                        Впиши се
+                    </button>
+                </div>
             </form>
-            <div class="container-login-button">
-                <button class="login-form-btn" type="button">
-                    Впиши се 
-                </button>
-            </div>
+
         </div>
     </div>
 </div>
