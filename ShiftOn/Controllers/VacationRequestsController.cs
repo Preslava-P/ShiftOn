@@ -62,6 +62,7 @@ namespace ShiftOn.Controllers
         {
             if (ModelState.IsValid)
             {
+                vacationRequest.RequestDate = DateTime.Now;
                 _context.Add(vacationRequest);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
