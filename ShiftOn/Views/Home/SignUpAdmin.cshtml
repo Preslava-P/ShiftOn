@@ -18,12 +18,12 @@
                 <div class="flex-register">
                     <div class="wrap-input2">
                         <h5 class="label-input2">Име</h5>
-                        <input class="input2" type="text" name="firstname" autocomplete="on" placeholder="Въведи име и фамилия" required>
+                        <input class="input2" type="text" name="firstname" autocomplete="on" placeholder="Въведи име" required>
                     </div>
 
                     <div class="wrap-input2">
                         <h5 class="label-input2">Фамилия</h5>
-                        <input class="input2" type="text" name="lastname" autocomplete="on" placeholder="Въведи име и фамилия" required>
+                        <input class="input2" type="text" name="lastname" autocomplete="on" placeholder="Въведи фамилия" required>
                     </div>
                 </div>
 
@@ -53,12 +53,12 @@
 
                 <div class="buttons">
                     <div class="container-login-button2">
-                        <button type="submit">
+                        <button type="submit" asp-controller="Users" asp-action="Index" method="post">
                             Регистрация
                         </button>
                     </div>
                     <div class="container-login-button3">
-                        <a class="button-back" href="https://localhost:7088/Home/Choose">
+                        <a class="button-back" asp-controller="Home" asp-action="Choose" method="post">
                             <h6>Назад</h6>
                         </a>
                     </div>
@@ -67,3 +67,4 @@
         </div>
     </div>
 </div>
+ 

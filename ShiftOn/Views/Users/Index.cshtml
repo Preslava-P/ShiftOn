@@ -4,25 +4,18 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
-
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<table class="table">
+<h1 class="persona text-center" style="margin-top: 20px; font-size: 2.5rem; color: #29aae2; font-family:Magneto">Служители</h1>
+<h5 style="font-size: 1rem; color: #29aae2; margin-bottom: 10px; text-align: center;">
+    <a asp-action="Create" style="text-decoration: none; ">Добави нов служител</a>
+</h5>
+<table class="table" style="border: inset; border-color:#29aae2; padding: 5px; width: 70rem; margin-left:120px;">
     <thead>
-        <tr>
+        <tr style="border-bottom:inset 3px;  border-color: #29aae2; color: #29aae2;">
             <th>
                 @Html.DisplayNameFor(model => model.FirstName)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.LastName)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.ScheduleId)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.VacationRequestId)
             </th>
             <th></th>
         </tr>
@@ -37,17 +30,23 @@
                 @Html.DisplayFor(modelItem => item.LastName)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.ScheduleId)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.VacationRequestId)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.UserId">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.UserId">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.UserId">Delete</a>
+                <a asp-action="Edit" asp-route-id="@item.UserId" style="text-decoration: none;">Редактирай</a> |
+                    <a asp-action="Details" asp-route-id="@item.UserId" style="text-decoration: none;">Подробности</a> |
+                    <a asp-action="Delete" asp-route-id="@item.UserId" style="text-decoration: none;">Изтрий</a>
             </td>
         </tr>
 }
     </tbody>
 </table>
+<div style="display: flex; justify-content: space-evenly; text-align: center; margin-top: 15px;">
+    <a asp-controller="Home" style="text-decoration:none; font-weight: bold; border: inset; border-color: red; border-radius: 20px; color: red; font-size: 1.2rem; margin: 10px, 5px; padding: 2px 15px;" type="submit">
+        Излизане
+    </a>
+    <a asp-controller="Schedules" asp-action="Index" style="text-decoration:none; font-weight: bold; border: inset; border-color: #29aae2; border-radius: 20px; color: #29aae2; font-size: 1.2rem; margin: 10px, 5px; padding: 2px 15px;" type="submit">
+        Графици
+    </a>
+    <a asp-controller="VacationRequests" asp-action="Index" style="text-decoration:none; font-weight: bold; border: inset; border-color: #29aae2; border-radius: 20px; color: #29aae2; font-size: 1.2rem; margin: 10px, 5px; padding: 2px 15px;" type="submit">
+        Почивни дни
+    </a>
+</div>
+

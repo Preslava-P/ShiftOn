@@ -4,42 +4,46 @@
     ViewData["Title"] = "Create";
 }
 
-<h1>Create</h1>
+<h1 style="font-size: 2.5rem;  color: #29aae2; margin-left: 10px;">Добави</h1>
 
-<h4>User</h4>
-<hr />
+<h4 style="color: #29aae2; margin-left: 10px">Служител</h4>
+<hr style="color: #29aae2;" />
 <div class="row">
     <div class="col-md-4">
-        <form asp-action="Create">
+        <form asp-action="Create" style="margin-left: 15px;">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
+            <div class="form-group" style="color: #29aae2;">
                 <label asp-for="FirstName" class="control-label"></label>
-                <input asp-for="FirstName" class="form-control" />
+                <input asp-for="FirstName" class="form-control" style=" border: inset; border-color: #29aae2;" />
                 <span asp-validation-for="FirstName" class="text-danger"></span>
             </div>
-            <div class="form-group">
+            <br />
+            <div class="form-group" style="color: #29aae2;">
                 <label asp-for="LastName" class="control-label"></label>
-                <input asp-for="LastName" class="form-control" />
+                <input asp-for="LastName" class="form-control" style=" border: inset; border-color: #29aae2;" />
                 <span asp-validation-for="LastName" class="text-danger"></span>
             </div>
-            <div class="form-group">
+            <br />
+            <div class="form-group" style="color: #29aae2;">
                 <label asp-for="ScheduleId" class="control-label"></label>
-                <input asp-for="ScheduleId" class="form-control" />
+                <input asp-for="ScheduleId" class="form-control" style=" border: inset; border-color: #29aae2;" />
                 <span asp-validation-for="ScheduleId" class="text-danger"></span>
             </div>
-            <div class="form-group">
+            <br />
+            <div class="form-group" style="color: #29aae2;">
                 <label asp-for="VacationRequestId" class="control-label"></label>
-                <input asp-for="VacationRequestId" class="form-control" />
+                <input asp-for="VacationRequestId" class="form-control" style=" border: inset; border-color: #29aae2;" />
                 <span asp-validation-for="VacationRequestId" class="text-danger"></span>
             </div>
+            <br />
             <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
+                <input type="submit" value="Добави" class="btn btn-primary" style="font-weight: bold;" />
             </div>
         </form>
     </div>
 </div>
 
 <div>
-    <a asp-action="Index">Back to List</a>
+    <a asp-action="Index" style="margin-left: 15px; text-decoration: none;">Обратно към таблицата</a>
 </div>
 

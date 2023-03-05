@@ -10,7 +10,7 @@ namespace ShiftOn.Models
 
         [Required]
         [DisplayName("Date")]
-        public DateTime RequestDate { get; set; }
+        public DateTime RequestDate { get; set; } = DateTime.Now;
 
         public Guid UserId { get; set; }
         public Guid ScheduleId { get; set; }

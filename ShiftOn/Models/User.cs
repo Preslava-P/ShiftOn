@@ -11,17 +11,19 @@ namespace ShiftOn.Models
 
         [Required]
         [MaxLength(50)]
-        [DisplayName("First name")]
+        [DisplayName("Име")]
         public string FirstName { get; set; }
 
         [Required]
         [MaxLength(50)]
-        [DisplayName("Last name")]
+        [DisplayName("Фамилия")]
         public string LastName { get; set; }
 
         [Required]
+        [DisplayName("График")]
         public Guid ScheduleId { get; set; }
         [Required]
+        [DisplayName("Почивен ден")]
         public int VacationRequestId { get; set; }
 
         public ICollection<Schedule> Schedules { get; set; }

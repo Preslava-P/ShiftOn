@@ -58,7 +58,7 @@ namespace ShiftOn.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("VacationRequestId,RequestDate,UserId,ScheduleId")] VacationRequest vacationRequest)
+        public async Task<IActionResult> Create([Bind("RequestDate,UserId,ScheduleId")] VacationRequest vacationRequest)
         {
             if (ModelState.IsValid)
             {
